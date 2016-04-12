@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/influxdb/client/v2"
+	"github.com/influxdata/influxdb/client"
 )
 
 func (cfg *InfluxConfig) BP() *client.BatchPoints {
