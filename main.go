@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/client/v2"
+	"github.com/influxdata/influxdb/client"
 	"github.com/kardianos/osext"
 	"github.com/soniah/gosnmp"
 	"gopkg.in/gcfg.v1"
